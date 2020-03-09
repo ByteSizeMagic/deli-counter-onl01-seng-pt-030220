@@ -25,5 +25,7 @@ end
 def now_serving
   if
     puts "There is nobody waiting to be served!"
-end
+  elsif
+    puts "Currently serving #{}."
+  end
 end
