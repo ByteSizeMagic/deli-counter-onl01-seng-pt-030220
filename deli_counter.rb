@@ -18,8 +18,8 @@ end
 # new customer takes number
 def take_a_number(katz_deli, customer_name)
 # need to add name to end of line
-
-  puts "Welcome, #{customer_name}. You are number #{} in line."
+  katz_deli << customer_name
+  puts "Welcome, #{customer_name}. You are number #{line.size} in line."
 end
 
 
