@@ -22,8 +22,8 @@ end
 
 
 # prints next person in line and removes from front of line
-def now_serving
-  if
+def now_serving(katz_deli)
+  if katz_deli.size == 0
     puts "There is nobody waiting to be served!"
   elsif
     puts "Currently serving #{}."
